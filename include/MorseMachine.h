@@ -15,7 +15,8 @@ private:
     void dot();
     void dash();
     void midPause();
-    void endPause();
+    void letterPause();
+    void wordPause();
 
     ILedController& led;
     int timeUnit;
